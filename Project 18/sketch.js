@@ -22,7 +22,7 @@ function setup() {
     createCanvas(400, 400);
     // The setup for all the globally defined variables and other things
     ground = createSprite(200, 325);
-    ground.displayWidth(1600);
+    ground.width = 800;
     ground.addImage("ground", groundImage);
     ground.y = 400 - (ground.height / 2);
 }
